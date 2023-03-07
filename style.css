@@ -1,0 +1,25 @@
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: darkred;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.logo img{
+    width: 200px;
+}
+
+.RSVP{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
