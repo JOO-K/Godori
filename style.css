@@ -1,3 +1,24 @@
+@font-face {
+    font-family: Jabin-Bold;
+    src: url(./fonts/Jabin-Bold.ttf);
+}
+
+@font-face {
+    font-family: Replica-Regular;
+    src: url(./fonts/Replica-Regular.otf);
+}
+
+
+@font-face {
+    font-family: Replica-Bold;
+    src: url(./fonts/Replica-Bold.otf);
+}
+
+@font-face {
+    font-family: Satyr;
+    src: url(./fonts/Satyr.otf);
+}
+
 html,
 body {
     height: 100%;
@@ -8,7 +29,7 @@ body {
 }
 
 .logo{
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 
@@ -17,6 +38,52 @@ body {
 .logo img{
     width: 200px;
 }
+
+.byauto{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.byauto h1{
+    margin:0px;
+     font-family: Replica-Bold;
+    font-size: 14px;
+    color: black;
+}
+
+.nav{
+  margin-top: 30px;
+  display: flex;
+  
+  justify-content: center;
+  text-decoration: none;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+    
+.nav ul li{
+  
+    display: inline;
+    font-family: Jabin-Bold;
+    font-size: 20px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+
+li a{
+  text-decoration: none;
+    color: black;
+}
+
+
 
 .RSVP{
   margin-top: 20px;
@@ -27,4 +94,28 @@ body {
 .iframe{
   width: 500px;
   height: 780px;
+}
+
+.posters{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.posters img{
+    width: 300px;
+    margin: 20px;
+}
+
+.posters .description{
+    margin: 20px;
+    padding: 20px;
+    width: 260px;
+    font-family: Replica-Regular;
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    
 }
